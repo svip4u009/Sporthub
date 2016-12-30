@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Sporthub" name="Sporthub" version="99.0" provider-name="SVIP">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.xbmc-israel" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sporthub - Your home of Sports
+24/7 365</summary>
+    <description lang="en">For all your viewing needs - Stunning HD TV free and always will be. </description>
+    <platform>all</platform>
+  </extension>
+</addon>
